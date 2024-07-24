@@ -10,12 +10,19 @@ body{
 header{
     background-color: yellow;
     display: flex;
+    flex-direction: column;
+}
+
+#linha1{
+    display: flex;
+    flex-direction: row;
 }
 
 #logo{
     margin: 10px;
     width: 160px;
     height: 80px;
+    border-radius: 25px;
 }
 
 #BarraDePesquisa{
@@ -26,4 +33,35 @@ header{
     border: none;
     margin-left: 10px;
     margin-top: 25px;
+}
+
+#disney{
+    font-size: 50px;
+    width: 70px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#meli{
+    background-image: linear-gradient(purple, rgb(37, 10, 37));
+    color: white;
+    text-decoration: none;
+    border-radius: 15px 0px 15px;
+    font-size: 15px;
+    height: 28px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.nomeMeli{
+    border: 1px solid white;
+    border-radius: 18px 18px 18px 0px;
+    margin: 1px;
+    padding: 3px;
+}
+
+.preçoMeli{
+    font-weight: 999;
 }
