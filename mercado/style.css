@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: yellow;
+    display: flex;
+}
+
+#logo{
+    margin: 10px;
+    width: 160px;
+    height: 80px;
+}
+
+#BarraDePesquisa{
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    background: white;
+    border: none;
+    margin-left: 10px;
+    margin-top: 25px;
+}
