@@ -2,23 +2,45 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Mercado Livre</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="img/icone-mercado-livre.png">
     </head>
     <body>
         <header>
+            <!-- primeira linha do header -->
+
             <div id="linha1">
-                <a href="https://www.mercadolivre.com.br/" ><img src="img/logo.png" alt="Mercado Live" id="logo"></a>
+                <a href="https://www.mercadolivre.com.br/" title="mercado livre"><img src="img/logo.png" alt="Mercado Live" id="logo"></a>
                 <input type="text" placeholder="Buscar produtos, marcas e muito mais" id="BarraDePesquisa">
-                <a href="whttps://www.disneyplus.com"><img src="img/disney.jpeg" alt="disney+" id="disney"></a>
-                <a href="https://www.mercadolivre.com.br/assinaturas/melimais" id="meli">
+                <a href="whttps://www.disneyplus.com" title="disney+"><img src="img/disney.jpeg" alt="disney+" id="disney"></a>
+                <a href="https://www.mercadolivre.com.br/assinaturas/melimais" id="meli" title="meli+">
                     <span id="meli+">assine o <strong class="nomeMeli">Meli+</strong>por <i class="preçoMeli">R$17,99</i></span>
                 </a>
+            
+            <!-- segunda linha do header -->
 
             </div>
             <div id="linha2">
+                <a href="#" id="location">
+                    <img src="img/local.svg" alt="local" id="local">
+                    <span class="CEP">Informe seu<br><strong>CEP</strong></span>
+                </a>
 
+                <select name="categorias" id="categorias">
+                    <option value="categorias:" id="categoria-opcoes">categorias</option>
+                    <option value="supermercado" id="categoria-opcoes">supermercado</option>
+                    <option value="tecnologia" id="categoria-opcoes">tecnologia</option>
+                    <option value="casa e móveis" id="categoria-opcoes">casa e móveis</option>
+                    <option value="elétrodomésticos" id="categoria-opcoes">elétrodomésticos</option>
+                    <option value="esportes e fitness" id="categoria-opcoes">esportes e fitness</option>
+                    <option value="ferramentas" id="categoria-opcoes">ferramentas</option>
+                    <option value="construção" id="categoria-opcoes">construção</option>
+                    <option value="indústria e comércio" id="categoria-opcoes">indústria e comércio</option>
+                    <option value="saúde" id="categoria-opcoes">saúde</option>
+                    <option value="acessórios para veículos" id="categoria-opcoes">acessórios para veículos</option>
+                </select>
             </div>
         </header>
     </body>

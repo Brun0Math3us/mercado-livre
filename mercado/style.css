@@ -13,7 +13,14 @@ header{
     flex-direction: column;
 }
 
+/* primeira linha do header */
+
 #linha1{
+    display: flex;
+    flex-direction: row;
+}
+
+#linha2{
     display: flex;
     flex-direction: row;
 }
@@ -64,4 +71,42 @@ header{
 
 .preçoMeli{
     font-weight: 999;
+}
+
+/* segunda linha do header */
+
+#location{
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+#local{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.CEP{
+    color: black;
+    font-size: 14px;
+}
+
+#categorias{
+    background: yellow;
+    border: none;
+    margin-left: 50px;
+    width: 80px;
+}
+
+#categorias:hover{
+    background: rgb(66, 65, 65);
+    transition: .2s;
+    color: white;
+    border-radius: 5px;
+}
+
+#categoria-opcoes{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    border-radius: 5px;
 }
