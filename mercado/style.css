@@ -5,6 +5,10 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgb(191, 191, 191), rgb(201, 201, 201));
+    background-repeat: no-repeat;
+    background-size: 1200px 500px;
+
 }
 
 header{
@@ -16,11 +20,6 @@ header{
 /* primeira linha do header */
 
 #linha1{
-    display: flex;
-    flex-direction: row;
-}
-
-#linha2{
     display: flex;
     flex-direction: row;
 }
@@ -75,6 +74,11 @@ header{
 
 /* segunda linha do header */
 
+#linha2{
+    display: flex;
+    flex-direction: row;
+}
+
 #location{
     display: flex;
     text-decoration: none;
@@ -109,4 +113,22 @@ header{
     background-color: rgb(66, 65, 65);
     color: white;
     border-radius: 5px;
+}
+
+#linha2-topicos-esquerda{
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+#linha2-topicos-direita{
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.direita{
+    margin-left: 160px;
 }
